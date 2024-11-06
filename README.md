@@ -1,5 +1,5 @@
 # contact-form
-Contact Form
+Contact Form Challenge
 
 ## Instructions
 ### In console
@@ -12,7 +12,7 @@ git clone https://github.com/MajitoBrinkitos/contact-form.git
 code .
 `
 
-### This code uses Saas for styling. In console
+### This code uses Saas for styling. In your text editor, open Terminal and run
 `
 sass -w ./scss/style.scss:./css/style.css
 `
