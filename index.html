@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--   <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <div class="container">
+    <form action="">
+      <h1>Contact Us</h1>
+
+      <!--Full Name-->
+      <fieldset class="personal">
+        <div class="field">
+          <!--First Name-->
+          <div class="label-row">
+            <label for="name">First Name *</label>
+            <label for="last-name">Last Name *</label>
+          </div>
+          
+          <!--Last Name-->
+          <div class="input-row">
+            <input type="text" id="name" name="name" required>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>    
+        </div>
+      </fieldset>
+
+      <br>
+
+      <fieldset class="contact">
+        <div class="field">
+          <!--Email-->
+          <label for="email">Email Address *</label>
+          <input type="email" name="email" id="email" pattern="[A-Za-z0-9]" autocomplete="off" required>
+        </div>
+      </fieldset>
+
+      <br>
+
+      <fieldset class="query">
+        <label for="query">Query Type *</label>
+        <div class="field">
+          <!--Query Type-->
+          <label for="query-type">
+            <input type="radio" id="query-type" name="query-type" value="ENQUIRY" >General Enquiry
+          </label>
+          <label for="query-type">
+            <input type="radio" id="query-type" name="query-type" value="SUPPORT" >Support Request
+          </label>
+        </div>
+      </fieldset>
+
+      <br>
+
+      <fieldset class="message">
+        <label for="message">Message *</label>
+        <div class="field">
+          <textarea name="message" id="message" cols="30" rows="7" required>
+
+          </textarea>
+        </div>
+      </fieldset>
+
+      <br>
+
+      <fieldset class="terms">
+        <div class="field">
+          <label for="consent">
+              <input type="checkbox" name="consent" id="consent" value="consent" required> I consent to being contacted by the team *
+          </label>
+      </div>
+      </fieldset>
+
+      <br>
+
+      <button type="button" id="btn">
+        Submit
+      </button>
+
+
+    </form>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">MARIA JOSE MEJIA CALVO</a>.
+  </div>
+</body>
+</html>
