@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0f1e7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+.container form fieldset.personal {
+  border: none;
+}
+.container form fieldset.personal .field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container form fieldset.personal .field .label-row, .container form fieldset.personal .field .input-row {
+  display: flex;
+  justify-content: space-between;
+}
+.container form fieldset.personal .field .label-row label {
+  width: 48%;
+  padding: 10px;
+  padding-left: 0;
+}
+.container form fieldset.personal .field .input-row input {
+  width: 48%;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px grey;
+}
+.container form fieldset.contact {
+  border: none;
+}
+.container form fieldset.contact .field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container form fieldset.contact .field input {
+  padding: 10px;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+.container form fieldset.query {
+  border: none;
+}
+.container form fieldset.query .field {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 15px;
+  padding-left: 0;
+  justify-content: space-between;
+}
+.container form fieldset.query .field label {
+  border: solid 1px grey;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-flex;
+  width: 48%;
+}
+.container form fieldset.query .field label input {
+  margin-left: 15px;
+}
+.container form fieldset.message {
+  border: none;
+}
+.container form fieldset.message .field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+}
+.container form fieldset.terms {
+  border: none;
+}
+.container button {
+  background-color: #0c7d69;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
