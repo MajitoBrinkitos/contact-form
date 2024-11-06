@@ -4,6 +4,7 @@ Contact Form
 ## Instructions
 ### In console
 `
+git clone https://github.com/MajitoBrinkitos/contact-form.git
 `
 
 ## Final Result
