@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0f1e7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+
+        fieldset.personal {
+            border: none;
+
+            .field {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .label-row, .input-row {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .label-row label {
+                    width: 48%;
+                    padding: 10px;
+                    padding-left: 0;
+                }
+
+                .input-row input {
+                    width: 48%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: solid 1px grey;
+
+                }
+            }
+        }
+
+        fieldset.contact {
+            border: none;
+
+            .field {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                input {
+                    padding: 10px;
+                    border: solid 1px grey;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        fieldset.query {  
+            border: none;
+
+            .field {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                padding: 15px;
+                padding-left: 0;
+                justify-content: space-between;
+                
+                label {
+                    border: solid 1px grey;
+                    padding: 10px;
+                    border-radius: 5px;
+                    display: inline-flex; 
+                    width: 48%;
+
+                    input {
+                        margin-left: 15px;
+                        input[type="radio"] {
+                            }
+                    }
+
+                    
+                }
+
+                
+
+            }
+        }
+
+        fieldset.message {
+            border: none;
+
+            .field {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                border: solid 1px lightgray;
+                border-radius: 5px;
+            }
+        }
+
+        fieldset.terms {
+            border: none;
+        }
+    }
+
+    button {
+        background-color: #0c7d69;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        
+    }
+}
